@@ -1,4 +1,6 @@
-![banner](https://i.ibb.co/G4Zj8qpZ/unnamed.png)
+<p align="center">
+  <img src="https://i.ibb.co/G4Zj8qpZ/unnamed.png" alt="banner" width="600"/>
+</p>
 
 # SkyScan
 
@@ -19,18 +21,21 @@ SkyScan is a Python3 reconnaissance script that fetches real-time aircraft data 
 1. **Update your system (optional):**  
    ```bash
    sudo apt update && sudo apt upgrade -y
+   ّّّّ```
 
 
 2. Install Python3 & venv (if not already installed)                                  
-sudo apt install python3 python3-venv -y
-                                    
+	```bash
+	sudo apt install python3 python3-venv -y
+                                    ```
 3. Create a Virtual Environment
 You should now see the environment name ((skyscan-env)) in your terminal prompt.                             
+```bash 
 python3 -m venv skyscan-env
-                                    
+                                ```    
 4. Activate the Virtual Environment
-skyscan-env/bin/activate
-                                 
+bash``` skyscan-env/bin/activate
+                                 ```
 5. Install Required Libraries
 This ensures all dependencies used by skyscan.py are installed within the virtual environment.                                 
 pip install requests geopy
@@ -40,12 +45,12 @@ Running SkyScan
 Place skyscan.py inside your working directory.
 
 Make sure you're in the virtual environment:
-yscan-env/bin/activate
-
+```bashskyscan-env/bin/activate
+```
                                     
 Run the script:                                
-python3 skyscan.py
-
+```bash python3 skyscan.py
+```
                                     
 Follow the CLI prompts to select language, input or auto-detect coordinates, and define search radius. The tool will continuously scan and update results until interrupted (Ctrl+C).
 
