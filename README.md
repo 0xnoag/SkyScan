@@ -1,24 +1,25 @@
-Overview:
+![banner](https://i.ibb.co/G4Zj8qpZ/unnamed.png)
 
-SkyScan is a Python3-based reconnaissance script that retrieves real-time aircraft data from the OpenSky Network API. It enables tracking aircraft within a specified radius of a geographic coordinate (auto-detected or manually defined), and is designed for terminal use with multilingual interface support (Arabic / English). This tool is built for OSINT operations, SIGINT simulations, or aviation research tasks and runs smoothly on penetration testing distributions like Kali Linux.
+# SkyScan
 
+SkyScan is a Python3 reconnaissance script that fetches real-time aircraft data from the OpenSky Network API. It supports tracking aircraft within a specified radius of geographic coordinates, either auto-detected or manually entered. Designed for terminal use with Arabic and English interface options, it is ideal for OSINT operations, SIGINT simulations, and aviation research. The tool runs smoothly on penetration testing distros like Kali Linux.
 
+## Features
 
-Features:
+- Real-time aircraft tracking via OpenSky API  
+- IP-based auto-geolocation or manual coordinate input  
+- Radius-based aircraft filtering  
+- Flight metadata: callsign, altitude, velocity, heading, distance, aircraft type  
+- Multilingual terminal interface (Arabic / English)  
+- Automatic refresh every 30 seconds  
+- ANSI-colored output for better readability
 
-Real-time aircraft tracking via OpenSky API.
-IP-based auto-geolocation or manual coordinate input.
-Radius-based filtering of aircraft positions.
-Flight metadata: callsign, altitude, velocity, heading, distance, aircraft type.
-Multilingual terminal interface: Arabic and English.
-Refresh loop every 30 seconds.
-ANSI-colored output for enhanced terminal readability.
+## Installation & Usage
 
+1. **Update your system (optional):**  
+   ```bash
+   sudo apt update && sudo apt upgrade -y
 
-Environment Setup:
-
-1. Update System (optional) 
-sudo apt update && sudo apt upgrade -y  
 
 2. Install Python3 & venv (if not already installed)                                  
 sudo apt install python3 python3-venv -y
@@ -54,5 +55,4 @@ Accuracy of aircraft information depends on the quality of OpenSky’s public da
 Use responsibly. This tool is for educational and lawful reconnaissance only.
 
 Author:
-Discord : 0xnoag
-Telegram : 0xnoag
+Discord & Telegram : 0xnoag
