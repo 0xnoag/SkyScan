@@ -52,3 +52,7 @@ Notes
 No OpenSky API key is required for basic functionality, but data may be limited due to rate limits.
 Accuracy of aircraft information depends on the quality of OpenSky’s public data feed.
 Use responsibly. This tool is for educational and lawful reconnaissance only.
+
+Author:
+Discord : 0xnoag
+Telegram : 0xnoag
