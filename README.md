@@ -63,6 +63,12 @@ python3 skyscan.py
 - Data accuracy depends on OpenSky’s public feed.  
 - For educational and lawful reconnaissance use only.
 
+
+## Support
+
+If you like this project, consider buying me a coffee ☕  
+**Bitcoin Address:** `bc1q5085r7x0gak6pcsqkrafxyfdnlqjhysr7cgfkj`
+
 ## Author
 
 Discord & Telegram: `0xnoag`
